@@ -163,8 +163,8 @@ header #menu{
     display: block;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 9rem 0 2rem 0;
+    text-align: left;
+    padding: 9rem 4rem 2rem 4rem;
     background: black;
     position: fixed;
     z-index: 1000;
@@ -456,10 +456,11 @@ hr{
         display: block;
         color: black;
     }
-   /* header .navbar ul li a.active,
+   header .navbar ul li a.active,
     header .navbar ul li a:hover{
         color:black;
-    }*/
+	border-bottom: none;
+    }
     header .navbar.nav-toggle{
         top:7rem;
     }
